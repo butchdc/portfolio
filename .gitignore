@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/runner
+/actions-runner
 
 # testing
 /coverage
