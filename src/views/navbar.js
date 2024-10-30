@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-dark ps-3 pe-3" style={{ backgroundColor: "#1c1f4a" }}>
             <div className="container-fluid">
             <Link className="navbar-brand d-flex align-items-center" to="/">
-                <img src={`${process.env.PUBLIC_URL}/logo.png`} style={{height:40}}></img>
+                <img src={`${process.env.PUBLIC_URL}/logo.png`} alt='' style={{height:40}}></img>
                 The Butch Code
             </Link>
             <button
@@ -28,7 +28,7 @@ const Navbar = () => {
                     <Link className="nav-link" to="/about">About</Link>
                 </li>
                 <li className="nav-item dropdown">
-                    <a
+                    <Link
                     className="nav-link dropdown-toggle"
                     href="#"
                     id="projectsDropdown"
@@ -37,7 +37,7 @@ const Navbar = () => {
                     aria-expanded="false"
                     >
                     Projects
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu" aria-labelledby="projectsDropdown">
                     <li><Link className="dropdown-item" to="/projects/e-prescripchain">e-Prescripchain</Link></li>
                     <li><Link className="dropdown-item" to="/projects/traffic-hotspot-detection">ITS Project Traffic Hotspot Detection</Link></li>
