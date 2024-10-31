@@ -1,10 +1,10 @@
 const AttendanceManagement = () => {
     return (
-        <div className="container my-5">
+        <div className="container my-4">
             <h1 className="display-5">Attendance Management System</h1>
-            
+            <hr />
             {/* Project Overview */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Project Overview</h2>
             <p>
                 The Attendance Management System is designed to replace traditional manual attendance tracking in educational institutions with a more efficient, digital solution. This system streamlines the recording and management of attendance, benefiting administrators, teachers, and students by providing easy access to accurate attendance records.
@@ -12,7 +12,7 @@ const AttendanceManagement = () => {
             </section>
     
             {/* Video Demo */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Project Demo Video</h2>
             <div className="ratio ratio-16x9 border shadow" style={{ maxWidth: '80%', margin: '0 auto', height: '500px' }}>
                 <iframe
@@ -26,7 +26,7 @@ const AttendanceManagement = () => {
             </section>
     
             {/* Key Features */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Key Features</h2>
             <ul>
                 <li>
@@ -45,7 +45,7 @@ const AttendanceManagement = () => {
             </section>
     
             {/* Technologies Used */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Technologies Used</h2>
             <p>The project incorporates a combination of front-end and back-end technologies, tools, and frameworks to create a scalable solution:</p>
             <ul>
@@ -59,7 +59,7 @@ const AttendanceManagement = () => {
             </section>
     
             {/* Development Process */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Development Process</h2>
             <p>
                 This project followed Agile principles, with weekly sprints and the use of Azure DevOps to manage tasks and track progress. Each sprint focused on a particular phase, from gathering requirements to system deployment, with specific tasks allocated to frontend and backend developers.
@@ -68,7 +68,7 @@ const AttendanceManagement = () => {
             </section>
     
             {/* Challenges and Solutions */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Challenges and Solutions</h2>
             <ul>
                 <li>
@@ -84,7 +84,7 @@ const AttendanceManagement = () => {
             </section>
     
             {/* Project Outcome */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Project Outcome</h2>
             <p>
                 The Attendance Management System successfully provides a digital platform for attendance tracking, enhancing accuracy and efficiency within educational institutions. It allows administrators to manage institutional data, teachers to record attendance, and students to view their records, all within a user-friendly interface.
@@ -92,7 +92,7 @@ const AttendanceManagement = () => {
             </section>
     
             {/* Links and Resources */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Links and Resources</h2>
             <p>
                 GitHub Repository: <a href="https://github.com/butchdc/attendance-management" target="_blank" rel="noopener noreferrer">Attendance Management System GitHub</a>

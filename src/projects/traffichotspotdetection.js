@@ -1,10 +1,10 @@
 const TrafficHotspotDetection = () => {
     return (
-        <div className="container my-5">
+        <div className="container my-4">
             <h1 className="display-5">Traffic Hotspot Detection Using K-Means and GMM Clustering</h1>
-            
+            <hr />
             {/* Project Overview */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Project Overview</h2>
             <p>
                 The Traffic Hotspot Detection project analyzes traffic data within Auckland to identify congestion areas using clustering techniques like K-Means and Gaussian Mixture Models (GMM). This data-driven approach provides insights for urban planning, enabling better transportation infrastructure development and efficient traffic management.
@@ -12,7 +12,7 @@ const TrafficHotspotDetection = () => {
             </section>
     
             {/* Video Section */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Project Demo Video</h2>
             <div className="ratio ratio-16x9 border shadow" style={{ maxWidth: '80%', margin: '0 auto', height: '500px' }}>
                 <iframe
@@ -26,7 +26,7 @@ const TrafficHotspotDetection = () => {
             </section>
     
             {/* Features and Benefits */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Key Features and Benefits</h2>
             <ul>
                 <li>
@@ -49,7 +49,7 @@ const TrafficHotspotDetection = () => {
             </section>
     
             {/* Technologies Used */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Technologies Used</h2>
             <p>This project combines machine learning and data visualization technologies to provide an impactful solution:</p>
             <ul>
@@ -61,7 +61,7 @@ const TrafficHotspotDetection = () => {
             </section>
     
             {/* Development and Testing */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Development and Testing</h2>
             <p>
                 The project followed a structured approach, from data preprocessing and clustering model training to validation and visualization. Power BI was used for creating interactive dashboards, allowing users to explore traffic data dynamically. Models were validated for accuracy in hotspot identification, and results were visualized on geographical maps for easy interpretation.
@@ -69,7 +69,7 @@ const TrafficHotspotDetection = () => {
             </section>
     
             {/* Project Outcome */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Project Outcome</h2>
             <p>
                 This project successfully identified high-congestion areas in Auckland, providing city planners with actionable insights through interactive Power BI dashboards. The visualizations facilitate deeper understanding of traffic patterns, guiding infrastructure decisions and optimizing resource allocation to alleviate congestion.
@@ -77,7 +77,7 @@ const TrafficHotspotDetection = () => {
             </section>
     
             {/* Links and Resources */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Links and Resources</h2>
             <p>
                 GitHub Repository: <a href="https://github.com/butchdc/TrafficHotspotDetection" target="_blank" rel="noopener noreferrer">Traffic Hotspot Detection GitHub</a>

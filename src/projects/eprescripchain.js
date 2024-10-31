@@ -2,10 +2,11 @@
 
 const EPrescripchain = () => {
     return (
-        <div className="container my-5">
+        <div className="container my-4">
             <h1 className="display-5">e-Prescripchain: Blockchain-Based E-Prescription System</h1>
+            <hr />
             {/* Project Overview */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Project Overview</h2>
             <p>
                 e-Prescripchain is a blockchain-based e-prescription system designed to enhance data security, patient privacy, and fraud prevention in the healthcare industry. By leveraging blockchain technology, this project provides a decentralized, tamper-resistant platform for managing e-prescriptions, ensuring that sensitive medical data remains secure and accurate.
@@ -26,7 +27,7 @@ const EPrescripchain = () => {
             </section>
     
             {/* Features and Benefits */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Key Features and Benefits</h2>
             <ul>
                 <li>
@@ -49,7 +50,7 @@ const EPrescripchain = () => {
             </section>
     
             {/* Technologies Used */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Technologies Used</h2>
             <p>This project leverages a robust tech stack to ensure high performance, security, and scalability:</p>
             <ul>
@@ -61,7 +62,7 @@ const EPrescripchain = () => {
             </section>
     
             {/* Development and Testing */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Development and Testing</h2>
             <p>
                 This project was developed using Agile methodologies, with an emphasis on iterative testing and continuous integration. Smart contracts were rigorously tested on Ganache, while system functionality was validated through unit tests and integration tests using Postman. The frontend and backend components were containerized with Docker to ensure consistent deployment and easy scalability.
@@ -69,7 +70,7 @@ const EPrescripchain = () => {
             </section>
     
             {/* Project Outcome */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Project Outcome</h2>
             <p>
                 The successful implementation of e-Prescripchain demonstrates the potential of blockchain technology to revolutionize e-prescription systems by improving data security, transparency, and efficiency in healthcare. This solution provides healthcare providers, pharmacies, and patients with a reliable and fraud-resistant platform for managing prescriptions.
@@ -77,7 +78,7 @@ const EPrescripchain = () => {
             </section>
     
             {/* Links and Resources */}
-            <section className="my-5">
+            <section className="my-4">
             <h2>Links and Resources</h2>
             <p>
                 GitHub Repository: <a href="https://github.com/butchdc/ePrescripChain" target="_blank" rel="noopener noreferrer">e-Prescripchain GitHub</a>
